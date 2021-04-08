@@ -128,7 +128,7 @@ E/ Within your job configuration, Change the pipeline definition to use a jenkin
 
 <img src="img/pipeline_script_from_SCM.JPG">
 
-Scroll down at the bottom and change the value of 'Script Path' field in order to locate your jenkinsfile submitted to GitHub repository
+Scroll down at the bottom and change the value of 'Script Path' field and set the full path of yourjenkinsfile submitted to GitHub repository
 
 <img src="img/ScriptPath_jenkinsfile.JPG">
 
