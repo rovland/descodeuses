@@ -110,11 +110,11 @@ Check-out the console output of the job
 
 ## Exercise V
 
-A/ Create a jenkinsfile into the folder created at Exercise I
+A/ Create a Jenkinsfile into the folder created at Exercise I
 
 B/ Start editing the file with your desired editor [Visual Studio Code for example]
 
-C/ write the code below in your jenkinsfile
+C/ write the code below in your Jenkinsfile
 
 <img src="img/fix_issue_OnPipeline.JPG">
 
@@ -124,21 +124,21 @@ Then merge the code on your branch into master
 
 D/ Create a new jenkins pipeline job
 
-E/ Within your job configuration, Change the pipeline definition to use a jenkinsfile as follows :
+E/ Within your job configuration, Change the pipeline definition to use a Jenkinsfile as follows :
 
 <img src="img/pipeline_script_from_SCM.JPG">
 
-Scroll down at the bottom and change the value of 'Script Path' field and set the full path of your jenkinsfile submitted to GitHub repository
+Scroll down at the bottom and change the value of 'Script Path' field and set the full path of your Jenkinsfile submitted to GitHub repository
 
 <img src="img/ScriptPath_jenkinsfile.JPG">
 
 Save your changes and build the job
 
-F/ Find a way to fix all errors occur by editing your jenkinsfile on local
+F/ Find a way to fix all errors occur by editing your Jenkinsfile on local
 
 - Tips : You can test your modified jenkins code by updating your first jenkins job created
 
-Submit your modified jenkinsfile to github repository and re-test it on jenkins
+Submit your modified Jenkinsfile to github repository and re-test it on jenkins
 
 ## Exercise VI
 
@@ -153,9 +153,9 @@ A/ Configure your jenkins server to found the maven M3 tool as follows :
 
 <img src="img/maven_installed_jenkinsTool.JPG">
 
-B/ Create a new jenkinsfile called : jenkinsfile_maven and save it inside the folder created at Exercise I
+B/ Create a new Jenkinsfile called : Jenkinsfile_maven and save it inside the folder created at Exercise I
 
-C/ Write the code below on your jenkinsfile_maven
+C/ Write the code below on your Jenkinsfile_maven
 
 <img src="img/jenkins_maven_script.JPG">
 
@@ -165,14 +165,14 @@ E/ Create a new jenkins pipeline job using your jenkins_maven file
 
 F/ Save your changes and build the jenkins job
 
-G/ Some expected errors occur ... Please fix them by editing your jenkinsfile_maven
+G/ Some expected errors occur ... Please fix them by editing your Jenkinsfile_maven
 
-H/ Submit your modified jenkinsfile_maven to Github repo
+H/ Submit your modified Jenkinsfile_maven to Github repo
 
-I/ Modify your jenkinsfile_maven by adding the code below : 
+I/ Modify your Jenkinsfile_maven by adding the code below : 
 
 <img src="img/post_jenkins_maven_script.JPG">
 
-Submit your modified jenkinsfile_maven to GitHub repo
+Submit your modified Jenkinsfile_maven to GitHub repo
 
 Build the jenkins job accordingly and check each pipeline stages
