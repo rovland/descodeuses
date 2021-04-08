@@ -86,7 +86,7 @@ A/ Once connected to jenkins, start installing docker plugin by browsing this ur
 
 Check 'Docker' plugin as shown above and click on 'install without restart' button
 
-B/ Create your first jenkins pipeline job by clicking on "Create a job"
+B/ Go back to the Jenkins Home page and create your first jenkins pipeline job by clicking on "Create a job"
 
 - Enter a jenkins job name : myFirstPipeline
 
@@ -118,7 +118,9 @@ C/ write the code below in your jenkinsfile
 
 <img src="img/fix_issue_OnPipeline.JPG">
 
-Submit the jenkinsfile to GitHub repository : https://github.com/rovland/descodeuses.git
+Submit the jenkinsfile to your branch on GitHub repository : https://github.com/rovland/descodeuses.git
+
+Then merge the code on your branch into master
 
 D/ Create a new jenkins pipeline job
 
