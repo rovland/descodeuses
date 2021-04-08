@@ -136,7 +136,7 @@ Save your changes and build the job
 
 F/ Find a way to fix all errors occur by editing your jenkinsfile on local
 
-<img src="img/replay_option_onJenkinsBuild.JPG">
+- Tips : You can test your modified jenkins code by updating your first jenkins job created
 
 Submit your modified jenkinsfile to github repository and re-test it on jenkins
 
