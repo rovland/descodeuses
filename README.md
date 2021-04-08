@@ -128,14 +128,13 @@ E/ Within your job configuration, Change the pipeline definition to use a jenkin
 
 <img src="img/pipeline_script_from_SCM.JPG">
 
-Scroll down at the bottom and change the value of 'Script Path' field and set the full path of yourjenkinsfile submitted to GitHub repository
+Scroll down at the bottom and change the value of 'Script Path' field and set the full path of your jenkinsfile submitted to GitHub repository
 
 <img src="img/ScriptPath_jenkinsfile.JPG">
 
 Save your changes and build the job
 
 F/ Find a way to fix all errors occur by editing your jenkinsfile on local
-- Tips : Using the 'replay' option on a jenkins build job, it's straightforward to quickly test your modifications
 
 <img src="img/replay_option_onJenkinsBuild.JPG">
 
