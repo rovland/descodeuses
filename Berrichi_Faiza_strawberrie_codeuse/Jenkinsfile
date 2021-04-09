@@ -1,0 +1,13 @@
+pipeline{
+    agent any
+
+    stages{
+        stage('Fix issue'){
+            steps{
+                echo "Hello Guys, this is my second pipeline syntax to be with jenkins "
+                echo "Hello people, this 
+                this my second pipeline syntax to be comfortable with jinkins"
+            }
+        }
+    }
+}
